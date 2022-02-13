@@ -1,0 +1,188 @@
+[{
+        "setting": "prefix",
+        "name": "prefix",
+        "eval": "prefix",
+        "noDisabled": true
+    },
+    {
+        "setting": "logs",
+        "name": "logs channel",
+        "eval": "logsChannel",
+        "type": "channel",
+        "exception": "logsChannel.channelID",
+        "perms": ["MANAGE_WEBHOOKS"],
+        "logsDelete": true,
+        "offEnabled": true
+    },
+    {
+        "setting": "moderator",
+        "name": "moderator role",
+        "eval": "modRole",
+        "type": "role",
+        "perms": ["MANAGE_ROLES"],
+        "checkRole": true,
+        "offEnabled": true
+    },
+    {
+        "setting": "muted",
+        "name": "mute role",
+        "eval": "muteRole",
+        "type": "role",
+        "perms": ["MANAGE_ROLES"],
+        "checkRole": true,
+        "offEnabled": true
+    },
+    {
+        "setting": "profanityfilter",
+        "name": "profanity filter",
+        "eval": "profanityFilter",
+        "perms": ["MANAGE_MESSAGES"],
+        "allowedArgs": ["warn", "delete", "warndelete", "off"],
+        "offEnabled": true
+    },
+    {
+        "setting": "inviteblocker",
+        "name": "invite blocker",
+        "eval": "inviteBlocker",
+        "perms": ["MANAGE_MESSAGES", "MANAGE_GUILD"],
+        "allowedArgs": ["warn", "delete", "warndelete", "off"],
+        "offEnabled": true
+    },
+    {
+        "setting": "linkblocker",
+        "name": "link blocker",
+        "eval": "linkBlocker",
+        "perms": ["MANAGE_MESSAGES"],
+        "allowedArgs": ["warn", "delete", "warndelete", "off"],
+        "offEnabled": true
+    },
+    {
+        "setting": "actions",
+        "name": "automod actions",
+        "eval": "autoModActions",
+        "popout": true,
+        "noEnabled": true
+    },
+    {
+        "setting": "welcomechannel",
+        "name": "welcome channel",
+        "eval": "welcome.channel",
+        "type": "channel",
+        "offEnabled": true
+    },
+    {
+        "setting": "welcomemessage",
+        "name": "welcome message",
+        "eval": "welcome.message",
+        "type": "message",
+        "offEnabled": true
+    },
+    {
+        "setting": "welcomerole",
+        "name": "welcome role",
+        "eval": "welcome.role",
+        "type": "role",
+        "offEnabled": true
+    },
+    {
+        "setting": "birthdaymessage",
+        "name": "birthday message",
+        "eval": "birthdays.message",
+        "type": "message",
+        "offEnabled": true
+    },
+    {
+        "setting": "birthdaychannel",
+        "name": "birthday channel",
+        "eval": "birthdays.channel",
+        "type": "channel",
+        "offEnabled": true
+    },
+    {
+        "setting": "birthdayrole",
+        "name": "birthday role",
+        "eval": "birthdays.role",
+        "type": "role",
+        "offEnabled": true
+    },
+    {
+        "setting": "levelchannel",
+        "name": "level channel",
+        "eval": "leveling.channel",
+        "type": "channel",
+        "offEnabled": true
+    },
+    {
+        "setting": "levelmessage",
+        "name": "level message",
+        "eval": "leveling.message",
+        "type": "message",
+        "offEnabled": true
+    },
+    {
+        "setting": "levelignore",
+        "name": "ignored leveling channels",
+        "eval": "leveling.ignoredChannels",
+        "type": "channels",
+        "offEnabled": true
+    },
+    {
+        "setting": "levelroles",
+        "name": "level roles",
+        "eval": "leveling.roles",
+        "popout": true,
+        "noEnabled": true
+    },
+    {
+        "setting": "tips",
+        "name": "tips",
+        "eval": "tips",
+        "type": "on/off",
+        "offEnabled": true,
+        "allowedArgs": ["on", "off"]
+    },
+    {
+        "setting": "",
+        "name": ""
+    },
+    {
+        "setting": "",
+        "name": ""
+    },
+    {
+        "setting": "",
+        "name": ""
+    },
+    {
+        "setting": "",
+        "name": ""
+    },
+    {
+        "setting": "",
+        "name": ""
+    },
+    {
+        "setting": "",
+        "name": ""
+    },
+    {
+        "setting": "",
+        "name": ""
+    },
+    {
+        "setting": "",
+        "name": ""
+    },
+    {
+        "setting": "",
+        "name": ""
+    },
+    {
+        "setting": "",
+        "name": ""
+    },
+    {
+        "setting": "",
+        "name": ""
+    }
+]
